@@ -60,17 +60,9 @@ class Number:
         """
         pass
 
-    def get_product(self):
-        """
-        Returns the product of all the digits in the number.
-
-        returns: int
-        """
-        pass
-
     def get_reverse(self):
         """
-        Returns the number in reverse
+        Returns the number in reverse.
 
         returns: int
         """
