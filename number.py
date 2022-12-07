@@ -118,7 +118,7 @@ class Number:
 
     def get_range(self):
         """
-        Returns the range of all the digits in the number
+        Returns the range of all the digits in the number.
 
         returns: list
         """
@@ -126,7 +126,7 @@ class Number:
 
     def get_frequency(self):
         """
-        Returns a dictionary of the frequency of each digit in the number
+        Returns a dictionary of the frequency of each digit in the number.
 
         returns: dict
         """
