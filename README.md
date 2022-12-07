@@ -22,6 +22,5 @@ Methods:
 * `get_min` (returns the smallest digit of the number)
 * `get_average` (returns the average of all digits of the number)
 * `get_median` (returns the median of all digits of the number)
-* `get_mode` (returns the mode of all digits of the number)
 * `get_range` (returns the range of all digits of the number)
 * `get_frequency` (returns a dictionary with the frequency of each digit)

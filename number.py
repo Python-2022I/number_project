@@ -70,7 +70,7 @@ class Number:
 
     def is_palindrome(self):
         """
-        Returns True if the number is a palindrome, False otherwise
+        Returns True if the number is a palindrome, otherwise False.
 
         returns: bool
         """
@@ -78,7 +78,7 @@ class Number:
 
     def get_digits(self):
         """
-        Returns a list of all the digits in the number
+        Returns a list of all the digits in the number.
 
         returns: list
         """
@@ -86,7 +86,7 @@ class Number:
 
     def get_max(self):
         """
-        Returns the largest digit in the number
+        Returns the largest digit in the number.
 
         returns: int
         """
@@ -94,7 +94,7 @@ class Number:
 
     def get_min(self):
         """
-        Returns the smallest digit in the number
+        Returns the smallest digit in the number.
 
         returns: int
         """
@@ -102,7 +102,7 @@ class Number:
 
     def get_average(self):
         """
-        Returns the average of all the digits in the number
+        Returns the average of all the digits in the number.
 
         returns: float
         """
@@ -110,17 +110,9 @@ class Number:
 
     def get_median(self):
         """
-        Returns the median of all the digits in the number
+        Returns the median of all the digits in the number.
 
         returns: float
-        """
-        pass
-
-    def get_mode(self):
-        """
-        Returns the mode of all the digits in the number
-
-        returns: int
         """
         pass
 
