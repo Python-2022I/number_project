@@ -1,11 +1,11 @@
 class Number:
-    def __init__(self):
-        self.value = 0
+    def __init__(self, value):
+        self.value = value
 
 
     def get_number(self):
         """
-        Returns the number
+        Returns the number.
 
         returns: int
         """
@@ -13,7 +13,7 @@ class Number:
 
     def is_odd(self):
         """
-        Returns True if the number is odd, False otherwise
+        Returns True if the number is odd, otherwise False.
 
         returns: bool
 
@@ -22,7 +22,7 @@ class Number:
 
     def is_even(self):
         """
-        Returns True if the number is even, False otherwise
+        Returns True if the number is even, otherwise False. 
 
         returns: bool
         """
@@ -30,7 +30,7 @@ class Number:
 
     def is_prime(self):
         """
-        Returns True if the number is prime, False otherwise
+        Returns True if the number is prime, otherwise False.
 
         returns: bool
         """
@@ -38,7 +38,7 @@ class Number:
 
     def get_divisors(self):
         """
-        Returns a list of all the divisors of the number
+        Returns a list of all the divisors of the number.
 
         returns: list
         """
@@ -46,7 +46,7 @@ class Number:
 
     def get_length(self):
         """
-        Returns the number of digits in the number
+        Returns the number of digits in the number.
 
         returns: int
         """
@@ -54,7 +54,7 @@ class Number:
 
     def get_sum(self):
         """
-        Returns the sum of all the digits in the number
+        Returns the sum of all the digits in the number.
 
         returns: int
         """
@@ -62,7 +62,7 @@ class Number:
 
     def get_product(self):
         """
-        Returns the product of all the digits in the number
+        Returns the product of all the digits in the number.
 
         returns: int
         """
@@ -136,7 +136,7 @@ class Number:
         """
         Returns the range of all the digits in the number
 
-        returns: int
+        returns: list
         """
         pass
 
@@ -149,12 +149,5 @@ class Number:
         pass
     
 
-
-
-
-
-
-
-
 # Create a new instance of Number
-number = Number()
+number = Number(3)
